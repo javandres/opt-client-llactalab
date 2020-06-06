@@ -122,14 +122,14 @@ otp.config = {
      * Site name / description / branding display options
      */
 
-    siteName            : "LlactaLab",
+    siteName            : "Planificador de rutas multimodal, LlactaLab - Cuenca Ecuador",
     siteDescription     : "An OpenTripPlanner deployment.",
     //logoGraphic         : 'images/otp_logo_darkbg_40px.png',
     logoGraphic         : 'https://llactalab.ucuenca.edu.ec/wp-content/uploads/2020/02/logos.png',
     
     // bikeshareName    : "",
     //Enable this if you want to show frontend language chooser
-    showLanguageChooser : true,
+    showLanguageChooser : false,
 
     showLogo            : true,
     showTitle           : true,
