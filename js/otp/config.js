@@ -293,36 +293,36 @@ i18n.init(options, function(t) {
 });
 
 otp.config.modes = {
+    "WALK"                : _tr('Walk Only'),
+    "BICYCLE"             : _tr('Bicycle Only'),
+    'WALK,BICYCLE_RENT'        : 'BíciPública',
     //TRANSLATORS: Travel by: mode of transport (Used in selection in Travel
     //Options widgets)
-        "TRANSIT,WALK"        : _tr("Transit"), 
+    "TRANSIT,WALK"        : _tr("Transit"), 
     //TRANSLATORS: Travel by: mode of transport (Used in selection in Travel
     //Options widgets)
-    //    "BUS,WALK"         : _tr("Bus Only"), 
+    "BUS,WALK"         : _tr("Bus Only"), 
     //TRANSLATORS: Travel by: mode of transport (Used in selection in Travel
     //Options widgets)
-     //   "TRAM,RAIL,SUBWAY,FUNICULAR,GONDOLA,WALK"       : _tr("Rail Only"), 
+    "TRAM,WALK"       : 'Sólo Tranvía', 
+    "TRAM,BICYCLE"     : 'Bicicleta y Tranvía',
     //TRANSLATORS: Travel by: mode of transport (Used in selection in Travel
     //Options widgets)
     //    "AIRPLANE,WALK"       : _tr("Airplane Only"),
     //TRANSLATORS: Travel by: mode of transport (Used in selection in Travel
     //Options widgets)
-        "BICYCLE"             : _tr('Bicycle Only'),
+        
     //TRANSLATORS: Travel by: mode of transport (Used in selection in Travel
     //Options widgets)
-        "TRANSIT,BICYCLE"     : _tr("Bicycle &amp; Transit"),
+    "TRANSIT,BICYCLE"     : _tr("Bicycle &amp; Transit"),
+    'TRANSIT,WALK,BICYCLE_RENT': 'BiciPública y Transporte Público',
+
+    'TRANSIT,WALK,BICYCLE_RENT': 'BiciPública y Transporte Público',
     //TRANSLATORS: Travel by: mode of transport (Used in selection in Travel
     //Options widgets)
-        "WALK"                : _tr('Walk Only'),
+       
     //TRANSLATORS: Travel by: mode of transport (Used in selection in Travel
     //Options widgets)
-        "CAR"                 : _tr('Drive Only'),
-    //TRANSLATORS: Travel by: mode of transport (Used in selection in Travel
-    //Options widgets)
-    "CAR_PARK,WALK,TRANSIT"     : _tr('Park and Ride'),
-    //TRANSLATORS: Travel by: mode of transport (Used in selection in Travel
-    //Options widgets) http://en.wikipedia.org/wiki/Park_and_ride#Kiss_and_ride
-    "CAR,WALK,TRANSIT"          : _tr('Kiss and Ride'),
     //TRANSLATORS: Travel by: mode of transport (Used in selection in Travel
     //Options widgets) (Park bicycle at Public transit station and take a
     //transit
@@ -334,9 +334,17 @@ otp.config.modes = {
     //TRANSLATORS: Travel by: mode of transport (Used in selection in Travel
     //Options widgets)
     //'WALK,BICYCLE_RENT'        : _tr('Rented Bicycle'),
-    'WALK,BICYCLE_RENT'        : 'BíciPública',
+    
     //TRANSLATORS: Travel by: mode of transport (Used in selection in Travel
     //Options widgets)
     //'TRANSIT,WALK,BICYCLE_RENT': _tr('Transit & Rented Bicycle')
-    'TRANSIT,WALK,BICYCLE_RENT': 'BiciPública y Transporte Público'
+    
+    "CAR"                 : _tr('Drive Only'),
+    //TRANSLATORS: Travel by: mode of transport (Used in selection in Travel
+    //Options widgets)
+    "CAR_PARK,WALK,TRANSIT"     : _tr('Park and Ride'),
+    //TRANSLATORS: Travel by: mode of transport (Used in selection in Travel
+    //Options widgets) http://en.wikipedia.org/wiki/Park_and_ride#Kiss_and_ride
+    "CAR,WALK,TRANSIT"          : _tr('Kiss and Ride'),
+
     };

@@ -54,12 +54,12 @@ otp.locale.Spanish = {
     infoWidgets : [
             {
                 title: 'Acerca de',
-                content: '<p>Acerca de este sitio</p>',
+                content: '<h3>Planificador de Rutas Multimodal de la ciudad de Cuenca</h3><p>El planificador de rutas multimodal desarrollado por <a href="https://llactalab.ucuenca.edu.ec">LlactaLAB<a/> es una herramienta para cálculo de rutas y planificación de viajes que permite buscar las mejores rutas combinando las alternativas de movilidad en la ciudad. <p> Basado en herramientas Open Source (OpenTripPLanner, GTFS, OpenStreetMaps) permite analizar las opciones para movilizarse en la ciudad de Cuenca, cubriendo las principales modalidades de transporte, así como una interfáz de acceso API para realizar análisis de movilidad multi modal.</p>',
                 //cssClass: 'otp-contactWidget',
             },
             {
                 title: 'Contacto',
-                content: '<p>¿Comentarios? Escríbenos a...</p>'
+                content: '<h3>LlactaLAB – Ciudades Sustentables</h3><p>Grupo de investigación del Departamento Interdisciplinario de Espacio y Población de la Universidad de Cuenca.</p><p>Contáctanos en: <a href="https://llactalab.ucuenca.edu.ec/contacto/">https://llactalab.ucuenca.edu.ec/contacto/</a></p><p>Repositorio de Código:<a href="https://github.com/llactalab">https://github.com/llactalab</a></p>'
             },
     ],
 
