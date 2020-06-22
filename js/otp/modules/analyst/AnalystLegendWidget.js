@@ -30,7 +30,8 @@ otp.modules.analyst.AnalystLegendWidget =
         this.imgWidth = width;
         this.imgHeight = height;
         
-        this.img = $('<img />').appendTo(this.mainDiv)
+        //this.img = $('<img src="http://otp.gophillygo.org/otp/analyst/legend.png?width=300&height=40&styles=color30" />').appendTo(this.mainDiv)
+        this.img = $('<img src="images/legend.png" />').appendTo(this.mainDiv)
         .css({
             width: width,
             height: height,
@@ -38,7 +39,7 @@ otp.modules.analyst.AnalystLegendWidget =
     },
     
     refresh : function(params) {
-	    this.img.attr('src', otp.config.hostname+ '/otp/analyst/legend.png?width='
-       + this.imgWidth+'&height=' + this.imgHeight + '&styles=' + params.styles);
+	//     this.img.attr('src', otp.config.hostname+ '/otp/analyst/legend.png?width='
+    //    + this.imgWidth+'&height=' + this.imgHeight + '&styles=' + params.styles);
     }
 });
