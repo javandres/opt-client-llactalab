@@ -15,6 +15,6 @@ View live in http://201.159.223.152/otpui/
 2. Run with docker-compose:
 
     ```bash
-    git checkout https://github.com/llactalab/otp-client-llactalab
+    git clone https://github.com/llactalab/otp-client-llactalab
     docker-compose up
     ```
