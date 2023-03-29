@@ -59,7 +59,7 @@ otp.config = {
   // In the 0.10.x API the base path is "otp-rest-servlet/ws"
   // From 0.11.x onward the routerId is a required part of the base path.
   // If using a servlet container, the OTP WAR should be deployed to context path /otp
-  restService: "otp/routers/default",
+  restService: "otp/routers/cuenca",
 
   /**
    * Base layers: the base map tile layers available for use by all modules.
@@ -142,8 +142,8 @@ otp.config = {
   //Enable this if you want to show frontend language chooser
   showLanguageChooser: false,
 
-  showLogo: true,
-  showTitle: true,
+  showLogo: false,
+  showTitle: false,
   showModuleSelector: true,
   metric: true,
 
@@ -169,6 +169,14 @@ otp.config = {
     {
       id: "analyst",
       className: "otp.modules.analyst.AnalystModule",
+    },
+    {
+      id: "bikeshare",
+      className: "otp.modules.bikeshare.BikeShareModule",
+    },
+    {
+      id: "calltaker",
+      className: "otp.modules.calltaker.CallTakerModule",
     },
   ],
 
