@@ -83,13 +83,13 @@ msgstr "Bicicleta y Transporte Público"
 #. Options widgets)
 #: src/client/js/otp/config.js:313
 msgid "Rented Bicycle"
-msgstr "Alquiler bicicleta"
+msgstr "Bici pública"
 
 #. Travel by: mode of transport (Used in selection in Travel
 #. Options widgets)
 #: src/client/js/otp/config.js:316
 msgid "Transit & Rented Bicycle"
-msgstr "Transporte Público y Alquiler de bicicleta"
+msgstr "Transporte Público y Bici pública"
 
 #. Context menu
 #: src/client/js/otp/core/MapContextMenu.js:36
@@ -162,7 +162,7 @@ msgstr "Configurar localización como analista"
 
 #: src/client/js/otp/modules/bikeshare/BikeShareModule.js:69
 msgid "Bike Share Planner"
-msgstr "Planificador de Bicicleta Compartida"
+msgstr "Planificador de Bici Pública"
 
 #. widget name
 #: src/client/js/otp/modules/bikeshare/BikeShareModule.js:110
